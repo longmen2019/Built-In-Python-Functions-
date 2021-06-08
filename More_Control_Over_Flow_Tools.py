@@ -470,9 +470,9 @@ parrot(**d)
 """4.7.6 Lambda Expressions
 Small anonymous function can be created with the lambda keyword. This function returns the sum of its two arguments:
 labda a,b: a + b. Labda functions can be used wherever function objects are required. They are syntactically restricted to a single expression.
-Sematically, they are just syntactic sugar for a normal function definition. Like nested function definitions, lambda functions can reference variables from the containing scope:
-
- """
+Sematically, they are just syntactic sugar for a normal function definition. Like nested function definitions, lambda functions can reference variables 
+from the containing scope:
+"""
 def make_incrementor(n):
     return lambda x: x + n 
 f = make_incrementor (42)
