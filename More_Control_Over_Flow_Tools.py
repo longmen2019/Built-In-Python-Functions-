@@ -27,6 +27,8 @@ words = ["Cat" , "Window" , "Defenstrate"]
 for w in words:
     print(w, len(w))
 
+""" Code that modifies a collection while iterating over that same collection can be tricy to get right.Instead,
+it is usually more straight-forward to loop over a copy of the collection:"""
 """Strategy : Iterate over a copy"""
 for user, status in users.copy().items():
     if status == "inactive":
