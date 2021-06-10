@@ -69,7 +69,8 @@ print(sum (range(4))) #1+2+3
 """How to get a list from a range"""
 print(list (range (4)))
 
-""" The break statement, like in C, break out of the innermost enclosing for or while loop
+""" 4.4. Break and Continue Statements, and Else Clause on Loops
+The break statement, like in C, break out of the innermost enclosing for or while loop
 loop statements may have an else clause; it is executed when the loop terminates through exhaustion of the iterable
  (with for) or when the condition becomes false (with while), but not when the loop is terminated by a break statement.
   This is an exemplified by the following loop, which searches for prime numbers:"""
@@ -79,7 +80,8 @@ for n in range (2,10):
         if n % i == 0:
             print (n , 'equal' , i , ' *',  n//i)
             break
-"""The else clause belongs to the for loop, not the if statement
+""" 
+The else clause belongs to the for loop, not the if statement
 when used with a loop, the else clause has more in common with the else clause of a try statement than it does with 
 does with of if statements: a try statement's else clause runs when no exception occurs, and a loop's else clause
 runs when no break occurs. """
@@ -95,7 +97,8 @@ for num in range (2,10):
         continue
     print("Found an odd number: ", num)
 
-"""The pass statement does nothing. It can be used when a statement is required syntactically 
+""" 4.5. Pass Statements
+The pass statement does nothing. It can be used when a statement is required syntactically 
 but the program requires no action."""
 
 while True:
@@ -113,7 +116,7 @@ def initlog (*args):
 # Remember to implement this!    
     pass 
 
-"""Defining Functions 
+"""4.6. Defining Functions 
 We create a function that writes the Fibonacci series to an arbitrary boundary"""
 
 """The keyword def introduces a function definition. It must be followed by the function name 
@@ -172,7 +175,6 @@ by the interpreter if it would be only value written."""
 
 fib(0)
 print(fib(0))
-
 
 """It is simple to write a function that returns a list of the numbers of the Fibonacci series, instead of printing it:
 return Fibonacci series up to n"""
