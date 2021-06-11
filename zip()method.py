@@ -12,4 +12,4 @@ result = zip(number, letters)
 
 #converting values to print as set 
 result = set(result)
-print('The zipped result is: ' , result)
+print('The zipped result is: ' , result) #The zipped result is:  {(4, 'four'), (8, 'eight'), (5, 'five'), (7, 'seven'), (6, 'six')}
