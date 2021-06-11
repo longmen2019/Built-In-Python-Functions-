@@ -11,4 +11,4 @@ def quartic(n):
 num_list = [4,5,6,7]
 result = map(quartic, num_list)
 
-print('Mapped result is: ', list(result))
+print('Mapped result is: ', list(result)) #Mapped result is:  [256, 625, 1296, 2401]
