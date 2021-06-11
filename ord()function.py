@@ -12,6 +12,6 @@ x = ord ('a')
 y = ord ('$')
 z = ord (' ') #special character 
 
-print(x)
-print(y)
-print(z)
+print(x) #97
+print(y) #36
+print(z) #32
