@@ -14,5 +14,5 @@ txt2 = "Hello how are you"
 result1 = txt1.split("#")
 result2 = txt2.split(" ")
 
-print(result1)
-print(result2)
+print(result1) #['apple', 'banana', 'cherry', 'orange']
+print(result2) #['Hello', 'how', 'are', 'you']
