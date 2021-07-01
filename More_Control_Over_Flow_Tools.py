@@ -166,7 +166,7 @@ def fib2(n):
     return result
 f100 = fib2(100)
 print(f100)
-
+# [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
 """coming from other languages, you might think that fib is not a function but a procedure since it 
 does not return a value. in fact, even functions without a return statement do return a value, albeit a rather 
@@ -186,16 +186,18 @@ def fib2(n):
     result = []
     a, b = 0,1
     while a < n:
-        # The statement return.append(a)  calls a method of the list object result. A method is function
+        # The statement return.append(a) calls a method of the list object result. A method is function
         # that 'belongs' to an object and is named obj.methodname, where obj is some object (this may be an expression),
-        # and methodname is the name of a method that is defined by the object's type.
+        # and method name is the name of a method that is defined by the object's type.
         result.append(a)
         a , b = b , a +b
     return result
 f100 = fib2(100)
 print(f100)
 
-""" Default Argument Values"""
+"""
+Default Argument Values
+"""
 """ 
 The most useful form is to specify a default value for one or more argumentss
 This create a function that can be called with fewer arguments than it is 
